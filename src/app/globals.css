@@ -1,0 +1,38 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #0f1115; color: #e6e8eb; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif; line-height: 1.5; }
+a { color: #8ab4ff; }
+.container { max-width: 880px; margin: 0 auto; padding: 32px 20px 64px; }
+.header h1 { margin: 0 0 4px; font-size: 28px; }
+.subtitle { color: #9aa3ad; margin: 0 0 24px; }
+
+.card { background: #171a21; border: 1px solid #262b36; border-radius: 10px; padding: 20px 22px; margin-bottom: 20px; }
+.card h2 { margin: 0 0 12px; font-size: 18px; }
+.muted { color: #9aa3ad; font-size: 14px; }
+
+button, input[type="submit"] { background: #2563eb; color: #fff; border: 0; border-radius: 6px; padding: 9px 16px; font-size: 14px; cursor: pointer; }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+input[type="file"] { color: #cfd3da; }
+
+.status { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; letter-spacing: 0.02em; text-transform: uppercase; }
+.status.queued { background: #3b3f4d; color: #cbd1de; }
+.status.running { background: #1e4fbf; color: #d8e3ff; }
+.status.completed { background: #1b6b3f; color: #d8f5e3; }
+.status.failed { background: #7a1f1f; color: #fad6d6; }
+
+.sentiment-positive { color: #5dd28e; }
+.sentiment-mixed    { color: #e6c34b; }
+.sentiment-neutral  { color: #9aa3ad; }
+.sentiment-negative { color: #f08a8a; }
+
+.theme { border-left: 3px solid #2c3445; padding: 4px 0 4px 14px; margin: 10px 0; }
+.theme h3 { margin: 0 0 4px; font-size: 15px; }
+.evidence { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; color: #9aa3ad; margin-top: 4px; }
+
+.list { padding-left: 18px; margin: 6px 0; }
+.list li { margin: 4px 0; }
+
+.error { background: #2a1414; border: 1px solid #5a2828; color: #f6c2c2; padding: 10px 14px; border-radius: 6px; margin: 8px 0; font-size: 14px; }
+
+.jobs-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.jobs-table th, .jobs-table td { text-align: left; padding: 8px 6px; border-bottom: 1px solid #20242d; }
+.jobs-table a { text-decoration: none; }
